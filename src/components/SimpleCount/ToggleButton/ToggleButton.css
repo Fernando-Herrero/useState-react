@@ -1,4 +1,4 @@
-button {
+.toggle-btn {
 	padding: 10px 20px;
 	font-size: 16px;
 	background-color: #0074e4;
@@ -9,14 +9,14 @@ button {
 	transition: background-color 0.3s ease;
 	user-select: none;
 	margin: 20px auto 0 auto;
-    display: block;
+	display: block;
 }
 
-button:hover {
+.toggle-btn:hover {
 	background-color: #005bb5;
 }
 
-button:focus {
+.toggle-btn:focus {
 	outline: 2px solid #e62429;
 	outline-offset: 2px;
 }

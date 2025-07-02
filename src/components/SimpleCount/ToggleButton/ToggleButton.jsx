@@ -10,7 +10,9 @@ export const ToggleButton = () => {
 
 	return (
 		<>
-			<button onClick={handleToggle}>{toggle ? "Encendido ☀️" : "Apagado 🌙"}</button>
+			<button className="toggle-btn" onClick={handleToggle}>
+				{toggle ? "Encendido ☀️" : "Apagado 🌙"}
+			</button>
 		</>
 	);
 };
