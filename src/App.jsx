@@ -9,6 +9,7 @@ import { Tabs } from "./components/Tabs/Tabs.jsx";
 import { CheckBox } from "./components/CheckBox/ChekBox.jsx";
 import { ChangeImage } from "./components/ChangeImage/ChangeImage.jsx";
 import { LikeButton } from "./components/LikeButton/LikeButton.jsx";
+import { EditableText } from "./components/EditableText/EditableText.jsx";
 
 export const App = () => {
 	return (
@@ -23,6 +24,7 @@ export const App = () => {
 			<CheckBox />
 			<ChangeImage />
 			<LikeButton />
+			<EditableText />
 		</>
 	);
 };
