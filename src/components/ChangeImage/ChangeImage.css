@@ -1,0 +1,43 @@
+.container-dragon-ball {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	background: linear-gradient(135deg, #1e3c72, #2a5298);
+	padding: 24px;
+	border-radius: 12px;
+	max-width: 300px;
+	margin: 20px auto;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+	color: white;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-dragon-ball img {
+	width: 180px;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 0 12px #ffd700;
+	transition: transform 0.3s ease;
+}
+
+.container-dragon-ball img:hover {
+	transform: scale(1.05);
+}
+
+.container-dragon-ball button {
+	background-color: #ffd700;
+	border: none;
+	border-radius: 6px;
+	padding: 10px 20px;
+	font-weight: bold;
+	color: #222;
+	cursor: pointer;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+	transition: background-color 0.25s ease;
+}
+
+.container-dragon-ball button:hover {
+	background-color: #e6c200;
+	transform: translatey(-2px);
+}

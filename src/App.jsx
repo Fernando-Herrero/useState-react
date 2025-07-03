@@ -7,6 +7,7 @@ import { ChangeColor } from "./components/ChangeColor/ChangeColor.jsx";
 import { TasksList } from "./components/TasksList/TasksList.jsx";
 import { Tabs } from "./components/Tabs/Tabs.jsx";
 import { CheckBox } from "./components/CheckBox/ChekBox.jsx";
+import { ChangeImage } from "./components/ChangeImage/ChangeImage.jsx";
 
 export const App = () => {
 	return (
@@ -19,6 +20,7 @@ export const App = () => {
 			<TasksList />
 			<Tabs />
 			<CheckBox />
+			<ChangeImage />
 		</>
 	);
 };
