@@ -1,0 +1,28 @@
+.container-timeout {
+	text-align: center;
+	margin-top: 50px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-timeout h1 {
+	color: #e62429;
+	font-size: 2rem;
+	margin-bottom: 20px;
+	transition: opacity 0.5s ease;
+}
+
+.container-timeout button {
+	padding: 10px 25px;
+	font-size: 1.1rem;
+	background-color: #0074e4;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: background-color 0.3s ease;
+}
+
+.container-timeout button:hover {
+	background-color: #005bb5;
+}
