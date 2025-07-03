@@ -5,6 +5,7 @@ import { TextBox } from "./components/TextBox/TextBox.jsx";
 import { ShowHide } from "./components/ShowHide/ShowHide.jsx";
 import { ChangeColor } from "./components/ChangeColor/ChangeColor.jsx";
 import { TasksList } from "./components/TasksList/TasksList.jsx";
+import { Tabs } from "./components/Tabs/Tabs.jsx";
 
 export const App = () => {
 	return (
@@ -15,6 +16,7 @@ export const App = () => {
 			<ShowHide />
 			<ChangeColor />
 			<TasksList />
+			<Tabs />
 		</>
 	);
 };
