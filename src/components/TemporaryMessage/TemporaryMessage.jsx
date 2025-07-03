@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./MensajeTemporal.css";
+import "./TemporaryMessage.css";
 
-export const MensajeTemporal = () => {
+export const TemporaryMessage = () => {
 	const [isVisible, setIsVisible] = useState(false);
 
 	const handleVisible = () => {
