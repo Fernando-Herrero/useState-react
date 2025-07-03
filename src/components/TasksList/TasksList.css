@@ -1,0 +1,67 @@
+.container-tasks {
+	max-width: 400px;
+	margin: 40px auto;
+	padding: 20px;
+	border: 2px solid #0074e4;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+	box-sizing: border-box;
+}
+
+.tasks-list {
+	list-style-type: none; /* Quita los puntos de la lista */
+	padding: 0;
+	margin: 0;
+}
+
+.tasks-list li {
+	background-color: #e0e7ff;
+	margin-bottom: 10px;
+	padding: 12px 16px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: #1a1a2e;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-tasks label {
+	display: block;
+	margin-bottom: 6px;
+	font-weight: bold;
+	color: #0074e4;
+	font-family: Arial, sans-serif;
+}
+
+.container-tasks input[type="text"] {
+	width: 100%;
+	padding: 8px 12px;
+	margin-bottom: 12px;
+	border: 2px solid #0074e4;
+	border-radius: 6px;
+	font-size: 14px;
+	box-sizing: border-box;
+	transition: border-color 0.3s ease;
+}
+
+.container-tasks input[type="text"]:focus {
+	border-color: #28a745;
+	outline: none;
+}
+
+.container-tasks button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #0074e4;
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+.container-tasks button:hover {
+	background-color: #005bb5;
+}
