@@ -3,6 +3,7 @@ import { SimpleCount } from "./components/SimpleCount/SimpleCount.jsx";
 import { ToggleButton } from "./components/ToggleButton/ToggleButton.jsx";
 import { TextBox } from "./components/TextBox/TextBox.jsx";
 import { ShowHide } from "./components/ShowHide/ShowHide.jsx";
+import { ChangeColor } from "./components/ChangeColor/ChangeColor.jsx";
 
 export const App = () => {
 	return (
@@ -11,6 +12,7 @@ export const App = () => {
 			<ToggleButton />
 			<TextBox />
 			<ShowHide />
+			<ChangeColor />
 		</>
 	);
 };
